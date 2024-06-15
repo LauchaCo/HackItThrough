@@ -1,0 +1,9 @@
+- `sudo -l` - Look for files to run as root
+- `id` - Look at your group and see if it's interesting or has a rare file to exploit
+- `find / -group {GROUP} 2>/dev/null` - Look for files owned by the group specified
+- `find / -perm -4000 2>/dev/null` - Look for files that have the SUID permisson enabled
+- `find / -user {USER} 2>/dev/null` - Look for files owned by the user specified
+- `crontab -l` - List the crontab for the user running the command
+- `cat /etc/crontab` - List all the process that run regularly
+- [[Processes enumeration]]
+- 

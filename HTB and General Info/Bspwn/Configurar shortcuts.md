@@ -1,0 +1,1 @@
+Modificar `~/.config/sxhkd`

@@ -1,0 +1,7 @@
+- `pspy` - [[Pspy]].
+- `ps -eo command` - Show the commands being run on the computer
+- `ps -ef` - Show the processes being run on the computer
+- `ps -eo command,user` - Shows the processes and the user running it
+- `cat /etc/crontab` - List all processes that run regularly
+- `systemctl list-timmers`
+- `ls /var/spool/cron/crontabs`

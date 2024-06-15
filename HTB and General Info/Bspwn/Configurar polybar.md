@@ -1,0 +1,1 @@
+Editar el fichero en `~/.config/polybar`

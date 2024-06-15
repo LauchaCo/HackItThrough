@@ -1,0 +1,2 @@
+## Usage
+__Dfunc Bypasser__ is a tool that recieves as an input a text of the phpinfo() type and gives you back the functions that should be added to your functions blacklist in order to make a reverse shell impossible via php

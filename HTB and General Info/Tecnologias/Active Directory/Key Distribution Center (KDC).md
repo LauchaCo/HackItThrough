@@ -1,0 +1,2 @@
+## Definition
+A __KDC__ is a system that is responsible for providing keys to the users in a network that shares sensitive or private data. Each time a connection is established between two computers in a network, they both request the KDC to generate a unique password which can be used by the end system users for verification.

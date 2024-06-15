@@ -1,0 +1,2 @@
+## Definition
+__SELinux__ is a Linux kernel security module that provides a mechanism for supporting access control security policies, including mandatory access controls (MAC). This module is similar to [[AppArmor]].

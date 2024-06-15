@@ -1,0 +1,2 @@
+- Before the attack the trap is set
+	- There's an actor and a story

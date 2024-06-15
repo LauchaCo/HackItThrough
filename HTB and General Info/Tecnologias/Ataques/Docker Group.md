@@ -1,0 +1,2 @@
+## Way to exploit
+If you compromise a linux machine with docker installled and you notice that you're part of the Docker Group with the id command you may try to create a mount in the system base with root privileges
