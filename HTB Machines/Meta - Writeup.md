@@ -4,7 +4,7 @@
 
 3 - Once you've listed the subdomains add to your `/etc/hosts` the page `artcorp.htb` and `dev01.artcorp.htb` in order to have full access to the page
 
-4 - Now go to `dev01.artcorp.htb` and you'll see a simple page that, using exiftool, gives you all the metadata of a certain image you upload. You can take advantadge of this feature by employing a simple exploit that enables you to do a RCE. This RCE can be done as explained in [[Exiftool]]
+4 - Now go to `dev01.artcorp.htb` and you'll see a simple page that, using exiftool, gives you all the metadata of a certain image you upload. You can take advantadge of this feature by employing a simple exploit that enables you to do a RCE. This RCE can be done as explained in [Exiftool](</General Info/Tools/Exiftool>)
 
 5 - Now that you should've gained a reverse shell as www-data you need to pivot to the `thomas` user in order gain the user flag and have the possibility to get into the root user
 
