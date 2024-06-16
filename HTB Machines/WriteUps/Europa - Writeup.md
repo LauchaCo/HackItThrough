@@ -14,6 +14,6 @@
 
 8. After exploiting this attack with a simple 'bash TCP reverse shell' you're ready to do some enumeration in order to perform a privilege escalation attack
 
-9. Now that you're in the machine the only thing you've to do is some enumeration explained in [Things to enumerate (Web)](</General Info/Enumeration/Things to enumerate (Machine).md>)
+9. Now that you're in the machine the only thing you've to do is some enumeration explained in [Things to enumerate (Machine)](</General Info/Enumeration/Things to enumerate (Machine).md>)
 
 10. Once you execute the `cat /etc/crontab` command you'll see that the root user runs a simple binary that tell the system to execute a file located in `/var/www/cmd` called `logcleared.sh`. Taking advantadge of this simple script you can create a file there called `logcleared.sh` that makes bash have the SUID permisson.

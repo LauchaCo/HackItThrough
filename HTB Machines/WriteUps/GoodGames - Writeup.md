@@ -14,7 +14,7 @@
 
 8. Now you can try to insert numbers by adding ' union select 1, 2, 3, 4 
 
-9. You'll see that the number 4 reflects in the server response, so, you can now try to exploit it via a [SSTI - Server Side Template Injection](<General Info/Tecnologias Web/Ataques/SSTI - Server Side Template Injection.md>) attack
+9. You'll see that the number 4 reflects in the server response, so, you can now try to exploit it via a [SSTI - Server Side Template Injection](</General Info/Tecnologias Web/Ataques/SSTI - Server Side Template Injection.md>) attack
 
 10. As a PoC send something like ' union select 1, 2, 3, {{7\*7}}-- -
 
@@ -34,7 +34,7 @@
 
 15. Going into the page you will come across the used edit panel that has the interesting name parameter that is susceptible to a SSTI attack
 
-16. Try to run the attack to gain remote code execution, and eventually a reverse shell, listed in [SSTI - Server Side Template Injection](<General Info/Tecnologias Web/Ataques/SSTI - Server Side Template Injection.md>).
+16. Try to run the attack to gain remote code execution, and eventually a reverse shell, listed in [SSTI - Server Side Template Injection](</General Info/Tecnologias Web/Ataques/SSTI - Server Side Template Injection.md>).
 
 17. Now that you've a reverse-shell you can see if you're already in the victim's machine by using the command "hostname -I"
 
@@ -87,10 +87,10 @@ echo ' ' > /dev/tcp/{IP}/$port : Sends an empty string to the machine in the ip 
 
 done; wait : done is to tell the app to finish the for iteration and wait is to make the app wait till the end of all the active threads
 
-23. Now that we've created the shell file we can run the following command to make the shell convert the file into base64 and copy it into the clipboard to later on paste it in the victim's machine. The console command is explained in [Pass files easily from one shell to other](<General Info/Shell/Pass files easily from one shell to other.md>).
+23. Now that we've created the shell file we can run the following command to make the shell convert the file into base64 and copy it into the clipboard to later on paste it in the victim's machine. The console command is explained in [Pass files easily from one shell to other](</General Info/Shell/Pass files easily from one shell to other.md>).
 
 24. We've seen that the port 22 is open, so, because we've some credentials we can try to enter in the SSH service of the main machine with the user leaked in the mount "augustus" with the following command: `ssh augustus@172.19.0.1` and try the password "superadministrator" later on
 
-25. We've gained access so we now can list all the machine to see if we're finally on the machine with the following commands `hostname -I` and `ip a`. See [Things to enumerate (Web)](<General Info/Enumeration/Things to enumerate (Machine).md>)
+25. We've gained access so we now can list all the machine to see if we're finally on the machine with the following commands `hostname -I` and `ip a`. See [Things to enumerate (Machine)](</General Info/Enumeration/Things to enumerate (Machine).md>)
 
 26. After trying a lot of things the way to escalate privileges is to copy the bash to /home/augustus and, from the mount, give that file SUID permissions and make it root property with `chown root:root bash` and `chmod 4755 bash`, enter augustus profile again and run `./bash -p`

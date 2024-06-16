@@ -2,7 +2,7 @@
 
 2 - Look for possible exploits to the versions of the services running on the server
 
-3 - Enumerate all the directories and files using the [GoBuster](<General Info/Tools/Enumeracion/GoBuster.md>) tool. 
+3 - Enumerate all the directories and files using the [GoBuster](</General Info/Tools/Enumeracion/GoBuster.md>) tool. 
 	Usage: gobuster dir --wordlist __{wordlist ex. directory-list}__ -u __{Url}__ __{IP}__
 
 4 - Once you've finished to enumerate all the directories you can see that there is a rare directory called /cgi-bin/ that contains some cgi scripts
