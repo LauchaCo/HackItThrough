@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB Machines/Valentine - Writeup.md",
+                "file": "HTB Machines/Europa - Writeup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB Machines/Valentine - Writeup.md",
+                "file": "HTB Machines/Europa - Writeup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB Machines/Valentine - Writeup.md",
+                "file": "HTB Machines/Europa - Writeup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB Machines/Valentine - Writeup.md"
+                "file": "HTB Machines/Europa - Writeup.md"
               }
             }
           }
@@ -148,6 +148,15 @@
   },
   "active": "023929b631e6ec6b",
   "lastOpenFiles": [
+    "HTB Machines/Cap - Writeup.md",
+    "HTB Machines/Europa - Info.md",
+    "HTB Machines/Europa - Writeup.md",
+    "HTB Machines/GoodGames - Info.md",
+    "HTB Machines/Blue - Writeup.md",
+    "HTB Machines/Aragog - Writeup.md",
+    "HTB Machines/Aragog - Code.md",
+    "HTB Machines/Active - Writeup.md",
+    "HTB Machines/Valentine - Writeup.md",
     "HTB Machines/UpDown - Writeup.md",
     "General Info/Useful Pages/GTFOBins.md",
     "General Info/Tools/SSH.md",
@@ -165,15 +174,6 @@
     "General Info/Tools/Git-dumper.md",
     "General Info/Tools/NSE scripts/http-enum.md",
     "General Info/Tools/Enumeracion/Nmap.md",
-    "HTB Machines/Shocker - Info.md",
-    "General Info/Tecnologias Web/iPython.md",
-    "General Info/Enumeration/Things to enumerate (Machine).md",
-    "General Info/Enumeration/Processes enumeration.md",
-    "HTB Machines/Valentine - Writeup.md",
-    "HTB Machines/Scrambled - Writeup.md",
-    "HTB Machines/RedPanda - Writeup.md",
-    "HTB Machines/Share - Info.md",
-    "General Info/Shell/Ways to pass files from a machine to other.md",
     "General Info/Tools/Enumeracion/Gobuster",
     "General/ Info/Tools",
     "General/ Info",
