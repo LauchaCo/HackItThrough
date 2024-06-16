@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "900eb0eae28ba996",
+        "id": "53ac0f94d8519683",
         "type": "tabs",
         "children": [
           {
-            "id": "60722b6f90bcc791",
+            "id": "023929b631e6ec6b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB Machines/Meta - Writeup.md",
+                "file": "HTB Machines/Valentine - Writeup.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB Machines/Meta - Writeup.md",
+                "file": "HTB Machines/Valentine - Writeup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB Machines/Meta - Writeup.md",
+                "file": "HTB Machines/Valentine - Writeup.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB Machines/Meta - Writeup.md"
+                "file": "HTB Machines/Valentine - Writeup.md"
               }
             }
           }
@@ -146,23 +146,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "60722b6f90bcc791",
+  "active": "023929b631e6ec6b",
   "lastOpenFiles": [
-    "General Info/Tools/Exiftool.md",
-    "HTB Machines/Meta - Writeup.md",
-    "General/ Info/Tools/Exiftool 1.md",
-    "General/ Info/Tools/Exiftool.md",
+    "HTB Machines/UpDown - Writeup.md",
+    "General Info/Useful Pages/GTFOBins.md",
+    "General Info/Tools/SSH.md",
+    "HTB Machines/Shocker - Writeup.md",
+    "SSH 1.md",
+    "General Info/Tools/Dfunc Bypasser.md",
+    "General Info/Tecnologias Web/PHP Wrappers/phar.md",
+    "General Info/Payload/Common payloads.md",
+    "HTB Machines/Share - Writeup.md",
+    "General Info/Tools/Enumeracion/GoBuster.md",
+    "General Info/Tools/Enumeracion/Wfuzz.md",
+    "General Info/Linux commands/Curl.md",
+    "General Info/Tecnologias Web/Ataques/OS Command Execution.md",
+    "General Info/Tools/Netcat.md",
+    "General Info/Tools/Git-dumper.md",
+    "General Info/Tools/NSE scripts/http-enum.md",
+    "General Info/Tools/Enumeracion/Nmap.md",
+    "HTB Machines/Shocker - Info.md",
+    "General Info/Tecnologias Web/iPython.md",
+    "General Info/Enumeration/Things to enumerate (Machine).md",
+    "General Info/Enumeration/Processes enumeration.md",
+    "HTB Machines/Valentine - Writeup.md",
+    "HTB Machines/Scrambled - Writeup.md",
+    "HTB Machines/RedPanda - Writeup.md",
+    "HTB Machines/Share - Info.md",
+    "General Info/Shell/Ways to pass files from a machine to other.md",
+    "General Info/Tools/Enumeracion/Gobuster",
     "General/ Info/Tools",
     "General/ Info",
-    "General",
-    "General.md",
-    "`General.md",
-    "'General.md",
-    "HTB Machines/Lame - Writeup.md",
-    "HTB Machines/Europa - Info.md",
-    "HTB Machines/Cap - Writeup.md",
-    "HTB Machines/Jerry - Writeup.md",
-    "HTB Machines/Active - Writeup.md",
-    "General Info/Active Directory/ASREPRoast Attack.md"
+    "General"
   ]
 }

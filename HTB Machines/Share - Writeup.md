@@ -2,21 +2,21 @@
 
 2 - Add shared.htb to `/etc/hosts`
 
-3 - Enumerate directories and files with [[GoBuster]], after doing this enumerate subdomains with the same tool
+3 - Enumerate directories and files with [GoBuster](<General Info/Tools/Enumeracion/GoBuster.md>), after doing this enumerate subdomains with the same tool
 
 4 - Once you've enumerated the subdomains you'll come across `checkout.shared.htb`. Add it to `/etc/hosts`
 
 5 - Now enter a product in the cart and try to buy it, Once you've reached the checkout page look at the previously enumerated cookies and you'll see that the cookie `custom_cart` has changed and now it has in its content the name of the code of the product, so, because the checkout page makes a call to the database, its suceptible to SQLi
 
-6 - Once you've exploited the SQLi and obtained the user and password `james_mason:Soleil101` you can enter the machine through ssh and do some more enumeration. Recommended [[Things to enumerate (Machine)]]
+6 - Once you've exploited the SQLi and obtained the user and password `james_mason:Soleil101` you can enter the machine through ssh and do some more enumeration. Recommended [Things to enumerate (Machine)](<General Info/Enumeration/Things to enumerate (Machine).md>)
 
 7 - Now that you've the machine enumerated you know that there is a directory called `scripts_review` that, because of the name, makes you think that maybe there's a process that looks for scripts in that folder.
 
-8 - Because of the previous assumption we now can try to look for proccesses being run regularly on the machine by another users in order to pivot to another user. [[Processes enumeration]]
+8 - Because of the previous assumption we now can try to look for processes being run regularly on the machine by another users in order to pivot to another user. [Processes enumeration](<General Info/Enumeration/Processes enumeration.md>)
 
-9 - Once you've detected the process that uses the directory scripts_review and you've seen what it does it's time to do some research and look for [[iPython]]. You'll see that the way of exploit this behaviour is the one detailed in the note previously linked. The particular payload you have to use is `import os; os.system("cat ~/.ssh/id_rsa > /dev/shm/key")` and save it inside a python file called foo.py in the directory startup.
+9 - Once you've detected the process that uses the directory scripts_review and you've seen what it does it's time to do some research and look for [iPython](<General Info/Tecnologias Web/iPython.md>). You'll see that the way of exploit this behavior is the one detailed in the note previously linked. The particular payload you have to use is `import os; os.system("cat ~/.ssh/id_rsa > /dev/shm/key")` and save it inside a python file called foo.py in the directory startup.
 
-10 - The previously explained step will make the process that runs regularly create a copy of the id_rsa file in a readable file that we'll be able to use in order to enter via ssh as the user that was running the process that employed [[iPython]]
+10 - The previously explained step will make the process that runs regularly create a copy of the id_rsa file in a readable file that we'll be able to use in order to enter via SSH as the user that was running the process that employed [iPython](<General Info/Tecnologias Web/iPython.md>)
 
 11 - Now that we've the id_rsa of dan_smith you can put it in a file and change that file permissons with `chmod 600 {FILE}` and, after doing all that, execute the ssh client with the following command `ssh -i {KEY-FILE} dan_smith@{IP56}`
 
