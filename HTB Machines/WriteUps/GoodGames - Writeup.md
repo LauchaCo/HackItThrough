@@ -65,26 +65,26 @@ done;wait
 tput cnorm
 ```
 
-22.1 - Basic explanation of the script above:
-
+>Basic explanation of the script above:
+>
 function ctrl_c : Is the function called if the program detects an INT signal such as "Ctrl + C", basically what this function does is echo out a message, make the mouse reappear and exit with a 1 in the exit code. 1 in the exit code is unsuccessful and 0 successful
-
+>
 trap ctrl_c INT : tell the app that when it recieves an INT signal execute the specified function
-
+>
 tput civis and tput cnorm : This command are basically to tell the app to disappear and appear the mouse respectively
-
+>
 for port in $(seq 1 65535); do : This part of the script tells the app to make the port variable have the the value 1, 2, 3, etc..
-
+>
 timeout 1 : Tells the app to kill the process if its duration is more than 1 second
-
+>
 bash -c "__{COMMAND}__" : Makes the bash shell execute the following command
-
+>
 echo ' ' > /dev/tcp/{IP}/$port : Sends an empty string to the machine in the ip specified and in the port that the port variable has that cycle
-
+>
 2>/dev/null : Tells the app to redirect all the error messages to /dev/null
-
+>
 && echo "\[+] Port $port open" & : Makes the script only run the message if the exit code of the echo is 0. The final & makes the app use multiple threads to run the process of discovering ports
-
+>
 done; wait : done is to tell the app to finish the for iteration and wait is to make the app wait till the end of all the active threads
 
 23. Now that we've created the shell file we can run the following command to make the shell convert the file into base64 and copy it into the clipboard to later on paste it in the victim's machine. The console command is explained in [Pass files easily from one shell to other](</General Info/Shell/Pass files easily from one shell to other.md>).
