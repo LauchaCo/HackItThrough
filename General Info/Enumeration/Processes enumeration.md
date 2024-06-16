@@ -1,4 +1,4 @@
-- `pspy` - [Pspy](<General Info/Tools/Enumeracion/Pspy.md>).
+- `pspy` - [Pspy](</General Info/Tools/Enumeracion/Pspy.md>).
 - `ps -eo command` - Show the commands being run on the computer
 - `ps -ef` - Show the processes being run on the computer
 - `ps -eo command,user` - Shows the processes and the user running it

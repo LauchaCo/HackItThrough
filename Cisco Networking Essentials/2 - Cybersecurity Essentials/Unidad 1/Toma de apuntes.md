@@ -1,4 +1,4 @@
-- Tipos de atacantes - Cubierto en [[CUC 2023/1 - Introduction to Cybersecurity/Unidad 1/Toma de apuntes]]
+- Tipos de atacantes - Cubierto en [Toma de apuntes](</Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 1/Toma de apuntes>)
 
 ## Tipos de hackers
 

@@ -8,14 +8,14 @@ Default port: 88 (UDP)
 ## Principal attacks
 The principal kerberos attacks are the ones listed below, the attacks are listed by the privileges levels needed to make them:
 
-Have connectivity with the [[Domain controller (DC)]] 
-- [[Kerberos brute-force]]
-- [[ASREPRoast Attack]]
-- [[Kerberoasting]]
-- [[Pass the key]]
-- [[Pass the ticket]]
-- [[Silver ticket]]
-- [[Golden ticket]]
+Have connectivity with the [Domain controller (DC)](</General Info/Tecnologias/Active Directory/Domain controller (DC).md>)
+- [Kerberos brute-force](</General Info/Active Directory/Kerberos brute-force.md>)
+- [ASREPRoast Attack](</General Info/Active Directory/ASREPRoast Attack.md>)
+- [Kerberoasting](</General Info/Active Directory/Kerberoasting.md>)
+- [Pass the key](</General Info/Active Directory/Pass the key.md>)
+- [Pass the ticket](</General Info/Active Directory/Pass the ticket.md>)
+- [Silver ticket](</General Info/Active Directory/Silver ticket.md>)
+- [Golden ticket](</General Info/Active Directory/Golden ticket.md>)
 It requires Domain Administrator privileges or similar
 
 ## Principal tools for attacking

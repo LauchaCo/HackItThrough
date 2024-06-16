@@ -15,7 +15,7 @@
 8 - Now that you've exploited the app via .SVG file in order to get a reverse shell you can go on an enumerate the system as explained in [Things to enumerate (Machine)](</General Info/Enumeration/Things to enumerate (Machine).md>)
 
 9 - Once you've run the `sudo -l` command you'll see two interesting things:
-- One is the condition `env_keep+=XDG_CONFIG_HOME` explained in [Sudo](</General Info/Linux commands/Sudo>)
+- One is the condition `env_keep+=XDG_CONFIG_HOME` explained in [Sudo](</General Info/Linux commands/Sudo.md>)
 - The second one is that the user thomas can run neofetch as root without password
 
 10 - This being said you can go directly to GTFOBins and learn how to exploit the neofetch with SUDO. Steps to do it:

@@ -1,5 +1,5 @@
 
-- Nombre de usuario o nicknames no deben de contener ningun dato como nombres o datos personales que puedan llevar a pensar a un atacante que somos un blanco facil para un ciberataque.
+- Nombre de usuario o nicknames no deben de contener ningún dato como nombres o datos personales que puedan llevar a pensar a un atacante que somos un blanco fácil para un ciberataque.
 - Los datos propios son cualquier tipo de datos que puedan ser utilizados para identificarlo como persona. En estos datos estan cosas como informacion medica, educativa, financiera, laboral, numero de servicio social, fecha de nacimiento, nombre, etc.
 
 ### Expediente medico

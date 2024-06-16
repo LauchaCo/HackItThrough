@@ -4,4 +4,4 @@
 - Files
 - robots.txt
 - Source-code
-- Ssl-cert with [[HTB and General Info/Tools/Openssl]]
+- Ssl-cert with [Openssl](</General Info/Tools/Openssl.md>)

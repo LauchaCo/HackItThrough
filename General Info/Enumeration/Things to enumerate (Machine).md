@@ -8,7 +8,7 @@ How to enumerate your own machine:
 - `find / -user {USER} 2>/dev/null` - Look for files owned by the user specified
 - `crontab -l` - List the crontab for the user running the command
 - `cat /etc/crontab` - List all the process that run regularly
-- [Processes enumeration](<General Info/Enumeration/Processes enumeration.md>)
+- [Processes enumeration](</General Info/Enumeration/Processes enumeration.md>)
 - `hostname -I`  - Shows your current machine ip
 - `ip a`  - Shows you all the interfaces running in your pc
 - `id`  - Shows all the groups of the user you're currently on, if you've docker group you can do a complex privilege escalation

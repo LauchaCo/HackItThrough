@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB Machines/WriteUps/Valentine - Writeup.md",
+                "file": "Cisco Networking Essentials/2 - Cybersecurity Essentials/Unidad 8/Toma de apuntes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB Machines/WriteUps/Valentine - Writeup.md",
+                "file": "Cisco Networking Essentials/2 - Cybersecurity Essentials/Unidad 8/Toma de apuntes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB Machines/WriteUps/Valentine - Writeup.md",
+                "file": "Cisco Networking Essentials/2 - Cybersecurity Essentials/Unidad 8/Toma de apuntes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB Machines/WriteUps/Valentine - Writeup.md"
+                "file": "Cisco Networking Essentials/2 - Cybersecurity Essentials/Unidad 8/Toma de apuntes.md"
               }
             }
           }
@@ -148,37 +148,41 @@
   },
   "active": "023929b631e6ec6b",
   "lastOpenFiles": [
+    "Cisco Networking Essentials/2 - Cybersecurity Essentials/Unidad 7/Toma de apuntes.md",
+    "Cisco Networking Essentials/2 - Cybersecurity Essentials/Unidad 6/Toma de apuntes.md",
+    "Cisco Networking Essentials/2 - Cybersecurity Essentials/Unidad 5/Toma de apuntes.md",
+    "Cisco Networking Essentials/2 - Cybersecurity Essentials/Unidad 4/Toma de apuntes.md",
+    "Cisco Networking Essentials/2 - Cybersecurity Essentials/Unidad 3/Toma de apuntes.md",
+    "Cisco Networking Essentials/2 - Cybersecurity Essentials/Unidad 2/Toma de apuntes.md",
+    "Cisco Networking Essentials/2 - Cybersecurity Essentials/Unidad 1/Toma de apuntes.md",
+    "Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 1/Toma de apuntes.md",
+    "Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes.md",
+    "CUC 2023/1 - Introduction to Cybersecurity/Unidad 1/Toma de apuntes.md",
+    "CUC 2023/1 - Introduction to Cybersecurity/Unidad 1",
+    "CUC 2023/1 - Introduction to Cybersecurity",
+    "CUC 2023",
+    "Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 4/Toma de apuntes.md",
+    "Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 3/Toma de apuntes.md",
+    "Comptia Security+/Professor Messer's/General info.md",
+    "Comptia Security+/Professor Messer's/Section 1 – Attacks, Threats, and Vulnerabilities/Social Engineering/Phishing video/Spear phishing.md",
+    "Comptia Security+/Professor Messer's/Section 1 – Attacks, Threats, and Vulnerabilities/Social Engineering/Phishing video/Phishing.md",
+    "Comptia Security+/Professor Messer's/Section 1 – Attacks, Threats, and Vulnerabilities/Social Engineering/Phishing video/Pharming.md",
+    "Comptia Security+/Professor Messer's/Section 1 – Attacks, Threats, and Vulnerabilities/Social Engineering/Phishing video/Different phisings.md",
+    "Comptia Security+/Professor Messer's/Section 1 – Attacks, Threats, and Vulnerabilities/Social Engineering/Impersonation video/Pretext.md",
+    "Comptia Security+/Ian Neil/General info.md",
+    "Comptia Security+/Ian Neil/Mitigations/Rapidly expanding viruses.md",
+    "Comptia Security+/Ian Neil/Attacks/Pass the Hash.md",
+    "Ethical Hacking Essentials(EHE)/Module 1/KeyPoints.md",
+    "HTB Machines/WriteUps/Valentine - Writeup.md",
     "HTB Machines/WriteUps/UpDown - Writeup.md",
-    "General Info/Useful Pages/GTFOBins.md",
-    "General Info/Tools/SSH.md",
-    "General Info/Tools/Dfunc Bypasser.md",
-    "General Info/Payload/Common payloads.md",
-    "General Info/Tecnologias Web/PHP Wrappers/phar.md",
-    "HTB Machines/WriteUps/Share - Writeup.md",
-    "General Info/Tools/Enumeracion/GoBuster.md",
-    "General Info/Tools/Git-dumper.md",
-    "General Info/Tools/Enumeracion/Wfuzz.md",
-    "General Info/Linux commands/Curl.md",
-    "General Info/Tecnologias Web/Ataques/OS Command Execution.md",
-    "General Info/Tools/Netcat.md",
-    "General Info/Tools/NSE scripts/http-enum.md",
-    "General Info/Tools/Enumeracion/Nmap.md",
     "HTB Machines/WriteUps/Shocker - Writeup.md",
-    "General Info/Tecnologias Web/iPython.md",
-    "General Info/Enumeration/Processes enumeration.md",
-    "General Info/Enumeration/Things to enumerate (Machine).md",
-    "HTB Machines/WriteUps/Scrambled - Writeup.md",
-    "HTB Machines/WriteUps/RedPanda - Writeup.md",
-    "General Info/Shell/Ways to pass files from a machine to other.md",
-    "General Info/Tecnologias Web/Ataques/SSTI - Server Side Template Injection.md",
-    "HTB Machines/Code & Data/RedPanda - Code.md",
-    "HTB Machines/WriteUps/Nunchucks - Writeup.md",
-    "General Info/Tecnologias/Linux Sec Modules/AppArmor.md",
+    "HTB Machines/WriteUps/Share - Writeup.md",
+    "HTB and General Info/Tools",
+    "HTB and General Info",
     "HTB Machines/Code & Data",
     "HTB Machines/WriteUps",
     "General Info/Tools/Enumeracion/Gobuster",
     "General/ Info/Tools",
-    "General/ Info",
-    "General"
+    "General/ Info"
   ]
 }

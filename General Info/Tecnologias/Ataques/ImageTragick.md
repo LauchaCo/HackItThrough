@@ -1,5 +1,5 @@
 ## Definition
-__ImageTragick__ are a set of attacks that can be run in the well-know [Imagemagick](<General Info/Tecnologias Web/Imagemagick.md>).
+__ImageTragick__ are a set of attacks that can be run in the well-know [Imagemagick](</General Info/Tecnologias Web/Imagemagick.md>).
 
 ## Common attacks
 - .MVG file attack: 

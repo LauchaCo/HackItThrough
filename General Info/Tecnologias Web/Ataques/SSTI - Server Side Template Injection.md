@@ -3,8 +3,8 @@ A __SSTI__ is an attack where the hacker is able to gain remote code execution i
 
 ## When to try this attack
 Some occasions could be:
-- When the server has [Python in Servers](<General Info/Tecnologias Web/Python in Servers.md>) installed
-- When the webserver is [Flask](<General Info/Tecnologias Web/Flask.md>)
+- When the server has [Python in Servers](</General Info/Tecnologias Web/Python in Servers.md>) installed
+- When the webserver is [Flask](</General Info/Tecnologias Web/Flask.md>)
 
 ## Ways to exploit different templates
 Jinja2:
