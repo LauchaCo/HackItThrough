@@ -21,3 +21,5 @@ How to enumerate your own machine:
 - `pspy` - You can run pspy in order to see all the processes running in the background within defined time intervals
 - `grep -r` - To search for a string in all the files' content recursively
 - `ps -eo user,command` - Used to show all the active processes in the machine, particularly useful if you want to make a "home-made" pspy
+- `linpeas` - It's a useful script that makes a thorough search for possible paths to escalate privileges on Linux/Unix/MacOS hosts ([Linpeas](https://github.com/peass-ng/PEASS-ng/tree/master/linPEAS)).
+- `winpeas` - It's the same case as linpeas but for Windows hosts ([Winpeas](https://github.com/peass-ng/PEASS-ng/tree/master/winPEAS)).

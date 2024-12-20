@@ -31,7 +31,7 @@ Estas vulnerabilidades son dadas por un defecto a nivel de hardware que causa co
 
 Gran cantidad de estas tecnicas pueden ser bypasseadas por el simple hecho de hacer el ataque de forma fisica, esto debido a que hay menos seguridad y cosas como la autenticacion para solicitar un archivo son inutiles ante el robo de un HDD por poner un ejemplo. Tecnicas efectivas contra esto pueden ser algunas como la encriptacion del disco para asi prevenir robo o daño al disco
 
-### Categorias del malware:
+### Categorias del malware
 - __Spyware__: Es un malware diseñado para el rastreo y espionaje de usuarios. Algunas funcionalidades comunes de los Spywares son: Rastreo de actividad, recopilamiento de pulsaciones de teclas y captura de datos. Comunmente cuando un spyware desea superar medidas de seguridad lo unico que se limita a hacer es a modificar configuraciones de seguridad. Normalmente el spyware es agrupado junto con software legitimo o con troyanos
 - __Adware__: Es software de publicidad que se instala en la maquina de la victima. Este tipo de malware normalmente viene acompañado de Spyware
 - __Bot__: Es un malware diseñado para llevar a cabo acciones automaticamente. Usualmente los bots eran inofensivos, sin embargo, ultimamente se les esta dando un uso especifico que son las BotNets
