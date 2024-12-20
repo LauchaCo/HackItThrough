@@ -10,8 +10,7 @@ sudo responder -I ens33 -dwP
 ```
 ![Responder_message](</Resources/Responder_message.png>)
 ### Step 2:
-Wait for an event to occur in the Network and Triggers LLMNR
-![LLMNR_Event](</Resources/LLMNR_Event.png>)
+Wait for an event to occur in the Network and Triggers LLMNR<br>![LLMNR_Event](</Resources/LLMNR_Event.png>)
 Once this event occurs and the tool automatically responds maliciously, the attacker will obtain sensitive information, including:
 - 
 ### Step 3:
