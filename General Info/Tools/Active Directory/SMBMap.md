@@ -6,3 +6,5 @@ Default command for a normal usage:
 	smbmap -H __{VICTIM's-IP}__ -u __{USER}__ -p __{PASS}__
 The following usage is the one you'll have to go with if you want to download a specific file from the server with the usage of a valid User and Password
 	smbmap -H __{VICTIM's-IP}__ -u __{USER}__ -p __{PASS}__ --download __{FILE-PATH}__
+
+#TODO

@@ -5,3 +5,5 @@ Although, Kerbrute has a lot of other functions like: bruteforce user:pass combo
 ## Usage
 The main usage is to try to enumerate all the users within the domain:
 	kerbrute userenum --dc __{VICTIM's-IP}__ -d __{DOMAIN ex. active.htb}__ __{WORDLIST}__
+
+#TODO

@@ -16,7 +16,8 @@ Have connectivity with the [Domain controller (DC)](</General Info/Tecnologias/A
 - [Pass the ticket](</General Info/Active Directory/Pass the ticket.md>)
 - [Silver ticket](</General Info/Active Directory/Silver ticket.md>)
 - [Golden ticket](</General Info/Active Directory/Golden ticket.md>)
-It requires Domain Administrator privileges or similar
+It requires Domain Administrator privileges or similar:
+#TODO
 
 ## Principal tools for attacking
 The principal tools required to attack Kerberos are:

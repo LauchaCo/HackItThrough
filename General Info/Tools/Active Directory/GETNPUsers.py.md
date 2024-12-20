@@ -15,5 +15,5 @@ Flags:
 - -format __{hashcat, john}__ : Format to save the AS_REQ of users without pre-authentication
 - -outputfile __{FILENAME}__ : Output filename
 - -request : Requests TGT for users and output them in JtR/hashcat format
-- -dc-ip __{IP-ADDR}__ : IP address of the [[Domain controller (DC)]]. If ommited it use the domain part specified in the target parameter
-- -dc-host __{HOSTNAME}__ : Hostname of the [[Domain controller (DC)]] to use. If ommited, the domain part specified in the account parameter will be used
+- -dc-ip __{IP-ADDR}__ : IP address of the [Domain controller (DC)](</General Info/Tecnologias/Active Directory/Domain controller (DC).md>). If ommited it use the domain part specified in the target parameter
+- -dc-host __{HOSTNAME}__ : Hostname of the [Domain controller (DC)](</General Info/Tecnologias/Active Directory/Domain controller (DC).md>) to use. If ommited, the domain part specified in the account parameter will be used
