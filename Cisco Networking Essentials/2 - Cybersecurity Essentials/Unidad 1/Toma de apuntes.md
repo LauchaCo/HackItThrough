@@ -1,4 +1,4 @@
-- Tipos de atacantes - Cubierto en [Toma de apuntes](</Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 1/Toma de apuntes>)
+- Tipos de atacantes - Cubierto en [Toma de apuntes](</Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 1/Toma de apuntes.md>)
 
 ## Tipos de hackers
 
@@ -25,7 +25,7 @@ Acciones coordinadas de organizaciones y gobiernos en pos de detener los ataques
 - __Nuevas Leyes__: Promulgacion de nuevas leyes para desalentar los ataques ciberneticos y las violaciones de datos. Estas leyes tienen multas severas para los ciberdelincuentes que las infringan.
 
 ## Tipos de registros personales
-- Revisar en [Apuntes unidad 1](<Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 1/Toma de apuntes>).
+- Revisar en [Apuntes unidad 1](<Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 1/Toma de apuntes.md>).
 
 Sus datos:
 - Datos sobre sus dispositivos informaticos
@@ -50,7 +50,7 @@ Los ultimos años fue demostrado como atacantes mediante la explotacion de vulne
 A la luz de la historia moderna, un simple ataque puede generar cortes en sectores muy importantes de un pais. Es por esto que se necesita estar al pendiente de posibles vulnerabilidades que podrian dejar expuestos grandes sectores y/o servicios.
 
 ## Amenazas internas y externas
-- Reviar en [Toma de apuntes](<Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 1/Toma de apuntes>) Atacantes internos, externos y datos tradicionales.
+- Reviar en [Toma de apuntes](<Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 1/Toma de apuntes.md>) Atacantes internos, externos y datos tradicionales.
 
 ## Las vulnerabilidades de los dispositivos moviles
 
@@ -71,7 +71,7 @@ Existen muchos ejemplos de amenazas de gran envergadura en las noticias. Empresa
 ## Uso de instrumentos avanzados
 
 - Vulnerabilidades actuales tienen como base los errores de programacion, las vulnerabilidades de protocolo o las configuraciones erroneas del sistema.
-- Actualmente, se percibe una creciente sofisticacion en los ataques. Con las sofisticadas APT cubiertas en [Toma de apuntes](<Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes>).
+- Actualmente, se percibe una creciente sofisticacion en los ataques. Con las sofisticadas APT cubiertas en [Toma de apuntes](<Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes.md>).
 - Ataques a algoritmos para asi poder romper alguna de las partes de la triada CIA
 - Por ultimo, la nueva generacion de ataques involucran la seleccion inteligente de las victimas para asi pasar desapercibidos la mayor cantidad de tiempo posible sin llamar la atencion de un administrador de sistemas.
 
