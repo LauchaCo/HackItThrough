@@ -3,14 +3,13 @@ __LLMNR Poisoning__ is an attack that relies in the [LLMNR](</General Info/Tecno
 
 ## Sample walkthrough
 
-### Step 1:
+### Step 1
 The attacker has to run this command in order to make the [lgandx's Responder](https://github.com/lgandx/Responder) tool listen for incoming [LLMNR](</General Info/Tecnologias/Active Directory/LLMNR>) broadcast packets.
 ```
 sudo responder -I ens33 -dwP
 ```
 ![Responder_message](</Resources/Responder_message.png>)
-### Step 2:
+### Step 2
 Wait for an event to occur in the Network and Triggers LLMNR<br>![LLMNR_Event](</Resources/LLMNR_Event.png>)
 Once this event occurs and the tool automatically responds maliciously, the attacker will obtain sensitive information, including:
-- 
 ### Step 3:
