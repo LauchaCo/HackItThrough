@@ -2,7 +2,7 @@
 
 ### Que es el malware?
 
-Es software malicioso diseñado para interrumpir las operaciones de la computadora u obtener acceso a los sitemas informaticos. Mas informacion de malware [Toma de apuntes](<Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes.md>)
+Es software malicioso diseñado para interrumpir las operaciones de la computadora u obtener acceso a los sitemas informaticos. Mas informacion de malware [Toma de apuntes](</Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes.md>)
 Tipos de malware:
 - Virus: Es un codigo malicioso ejecutable asociado a otro archivo ejectuable, como un programa legitimo. Los mayoria de los virus requieren la inicializacion del usuario y pueden activarse en un momento determinado. Los virus se propagan de una de tres maneras: desde medios extraibles; desde descargas de internet y desde archivos adjuntos del correo. Los virus pueden ser inofensivos o destructivos. Para evitar la deteccion un virus se transforma. Una vez que el virus este activo generalmente este atacara otros programas y/o otros dispositivos de la red. 
 - Gusanos: Son codigos maliciosos que se auto-replican al explotar de manera automatizada vulnerabilidades en las redes. Los gusanos por lo general, realentizan las redes. Este tipo de malware, a diferencia del virus, se ejecuta por si mismo. A excepcion de la infeccion inicial, ya no requieren de interaccion del usuario. Los gusanos comparten un patron. Todos tienen una vulnerabilidad de activacion, una manera de propagarse y contienen una carga util.
@@ -14,7 +14,7 @@ Es un programa malicioso que utiliza un activador para reactivar el codigo malic
 
 ### Ransomware
 
-Cubierto en [Toma de apuntes](<Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes.md#Categorias del malware>).
+Cubierto en [Toma de apuntes](</Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes.md#Categorias del malware>).
 
 ### Puertas traseras y rootkits
 
@@ -24,8 +24,8 @@ Un rootkit modifica el SO para crear una puerta trasera. La mayoria de los rootk
 ### Defensa contra malware
 
 Algunos pasos simples pueden ayudar a brindar proteccion contra todas las formas de malware son:
-- Programa antivirus. [Toma de apuntes](<Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 3/Toma de apuntes.md#Proteja sus dispositivos informaticos>). Debido a que todos los dias salen nuevas amenazas a diario es necesario mantener las firmas actualizadas. Una firma es como una huella. Identifica las caracteristicas de un codigo malicioso
-- Software de actualizacion. [Toma de apuntes](<Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 3/Toma de apuntes.md>). Es necesario actualizar tanto el SO como las aplicaciones, las cuales son actualmente la principal forma de ataque de un sistema. Ultimamente los desarrolladores de SO estan mas receptivos a nivel de vulnerabilidades nuevas, a diferencia de los desarrolladores de aplicaciones.
+- Programa antivirus. [Toma de apuntes](</Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 3/Toma de apuntes.md#Proteja sus dispositivos informaticos>). Debido a que todos los dias salen nuevas amenazas a diario es necesario mantener las firmas actualizadas. Una firma es como una huella. Identifica las caracteristicas de un codigo malicioso
+- Software de actualizacion. [Toma de apuntes](</Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 3/Toma de apuntes.md>). Es necesario actualizar tanto el SO como las aplicaciones, las cuales son actualmente la principal forma de ataque de un sistema. Ultimamente los desarrolladores de SO estan mas receptivos a nivel de vulnerabilidades nuevas, a diferencia de los desarrolladores de aplicaciones.
 
 ## Ataques a correos electronicos y navegadores
 
@@ -43,7 +43,7 @@ Si un usuario recibe algun correo electronico con alguno de estos indicadores no
 
 ### Spyware, adware y scareware
 
-Explicado en [Toma de apuntes](<Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes.md#Categorias del malware>).
+Explicado en [Toma de apuntes](</Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes.md#Categorias del malware>).
 Resumido:
 - Spyware es un software que permite a un delincuente obtener informacion sobre las actividades informaticas del usuario. El spyware incluye a menudo rastreadores de actividades, recopilación de pulsaciones de teclas y captura de datos.
 - Adware muestra generalmente los elementos emergentes molestos para generar ingresos para sus autores.
@@ -66,7 +66,7 @@ El Whaling es un ataque de suplantacion de identidad que apunta a objetivos de a
 Un delincuente puede hackear el archivo ejecutable de un navegador, los componentes de este o sus complementos. Todo esto es realizado para instalar algun tipo de malware o por otros fines de beneficio propio.
 - Complementos: Los complementos, como flash y shockwave de adobe, muestran contenido animado e interesantemente grafico mediante el software adecuado.
 	A pesar de que era pensado que flash era notablemente seguro, los hackers se dedicaron a intentar explotar estos complementos hasta que encontraron vulnerabilidades que podian provocar la caida de todo el sistema o permitir que el atacante tome control completo del sistema afectado. A medida que los potenciales atacantes o hackers siguen intentando buscar vulnerabilidades en estos complementos se puede esperar una creciente perdida de datos confidenciales
-- Envenenamiento SEO: Puede verlo en [Toma de apuntes](<Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes.md#Envenenamiento de SEO>)
+- Envenenamiento SEO: Puede verlo en [Toma de apuntes](</Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes.md#Envenenamiento de SEO>)
 - Secuestrador de navegadores: Es el malware que cambia la configuracion de los navegadores para redirigir al usuario a sitios webs que pagan los clientes de los ciberdelincuentes. Estos programas normalmente son instalados junto con software legitimo, al igual que lo puede hacer un virus.
 
 ### Como defenderse de los ataques a correos electronicos y navegadores
@@ -80,7 +80,7 @@ El grupo de trabajo contra la suplantacion de identidad (APWG) se encarga de red
 
 ### Ingenieria social
 
-Cubierto en [Toma de apuntes](<Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes.md#Ingenieria Social>)
+Cubierto en [Toma de apuntes](</Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes.md#Ingenieria Social>)
 
 ### Tacticas de ingenieria social
 
@@ -132,7 +132,7 @@ Las organizaciones deben tomar cartas en el asunto y concientizar a sus empleado
 
 ### Denegacion de servicio
 
-Cubierto en [Toma de apuntes](<Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes.md#Denegacion de servicio>).
+Cubierto en [Toma de apuntes](</Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes.md#Denegacion de servicio>).
 
 ### Analisis
 
@@ -151,7 +151,7 @@ Existen varios ataques de suplantacion de identidad:
 ### Ataque man-in-the-middle
 
 Un delincuente realiza un ataque man-in-the-middle (MitM) al interceptar las comunicaciones entre las computadoras para robar la información que transita por la red. El delincuente también puede modificar el mensaje en transito debido a que ninguna de las dos partes saben que el mensaje sufrió un cambio. El ataque MitM permite que el delincuente tome el control del dispositivo sin el conocimiento del usuario.
-Man-in-the-mobile (MitMo): Cubierto [Toma de apuntes](<Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes.md#Categorias del malware>).
+Man-in-the-mobile (MitMo): Cubierto [Toma de apuntes](</Cisco Networking Essentials/1 - Introduction to Cybersecurity/Unidad 2/Toma de apuntes.md#Categorias del malware>).
 
 ### Ataques de día cero (Zero-days)
 
