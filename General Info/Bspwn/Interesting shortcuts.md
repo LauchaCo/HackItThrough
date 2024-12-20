@@ -1,13 +1,1 @@
-`Super + ctrl + alt + {Left,Down,Up,Right}` - Preselect place to spawn an app
-`Super + ctrl + {1,9}` - Preselect the size of the window to spawn
-`Super + alt + {Left,Down,Up,Right}` - Resize the current window
-`Super + {Left,Down,Up,Right}` - Move from the actual window to the one you've pointed to
-`Super + ctrl + {Left,Down,Up,Right}` - Move the actual window from its place
-`Super + S` - Turn the maximized window to a minimized window
-`Super + T` - Maximize the window (With-borders)
-`Super + F` - Maximize window (Full-screen)
-`Super + D` - Open Rofi to select an app to open
-`Super + {1,9}` - Change working window
-`Super + Shift + {1,9}` - Send app to other window
-`Super + Shift + f` - Open Firefox with firejail
-`Super + alt + q` - Go back to login screen
+`Super + ctrl + alt + {Left,Down,Up,Right}` - Preselect place to spawn an app<br>`Super + ctrl + {1,9}` - Preselect the size of the window to spawn<br>`Super + alt + {Left,Down,Up,Right}` - Resize the current window<br>`Super + {Left,Down,Up,Right}` - Move from the actual window to the one you've pointed to<br>`Super + ctrl + {Left,Down,Up,Right}` - Move the actual window from its place<br>`Super + S` - Turn the maximized window to a minimized window<br>`Super + T` - Maximize the window (With-borders)<br>`Super + F` - Maximize window (Full-screen)<br>`Super + D` - Open Rofi to select an app to open<br>`Super + {1,9}` - Change working window<br>`Super + Shift + {1,9}` - Send app to other window<br>`Super + Shift + f` - Open Firefox with firejail<br>`Super + alt + q` - Go back to login screen<br>
