@@ -7,7 +7,7 @@
 4 - Try to enumerate objects in the domain using a smb client and a null session because of the lack of credentials to enter the server. Usage: smbclient -L __{VICTIM's-IP}__ -N 
 - -L : Allows you to look at what services are available on the server 
 - -N : Suppresses the normal password prompt from the client to the user. Used in a null session<br><br>
-	4.1 - Because the port 88 is open and kerberos is running you can try to enumerate all the users of the server with the usage of kerbrute. Usage: kerbrute userenum --dc __{VICTIM's-IP}__ -d __{DOMAIN ex. active.htb}__ __{WORDLIST}__<br><br>
+	4.1 - Because the port 88 is open and kerberos is running you can try to enumerate all the users of the server with the usage of kerbrute. Usage: kerbrute userenum --dc __{VICTIM's-IP}__ -d __{DOMAIN ex. active.htb}__ __{WORDLIST}__<br>
 	4.2 - For kerberosting and ASREPRoast attack you've to be with the hour in the system equal to the server's one. Tool: ntpdate __{VICTIM's-IP}__
 
 5 - After listing all the sharenames you can also list the privileges for each one of those shares. Usage: smbmap -H __{VICTIM's-IP}__
@@ -39,8 +39,8 @@
 
 15 - Enumerate till you get the user flag located in the desktop of the user SVC_TGS and download it with the previously named user with the flag --download
 
-16 - Log into the service with rpcclient. Usage: rpcclient -U "__{USER}__%__{PASSWORD}__" __{VICTIM's-IP}__
-	16.1 - Sometimes you can skip all the previous steps and try to connect with rpcclient with a null session. Way to do it: rpcclient -U "" __{VICTIM's-IP}__ -N
+16 - Log into the service with rpcclient. Usage: rpcclient -U "__{USER}__%__{PASSWORD}__" __{VICTIM's-IP}__<br><br>
+	16.1 - Sometimes you can skip all the previous steps and try to connect with rpcclient with a null session. Way to do it: rpcclient -U "" __{VICTIM's-IP}__ -N<br>
 	16.2 - If with the null session attack previously named you get a list of all the users in the server you can try to do an ASREPRoast
 
 17 - Useful rpcclient commands: 
