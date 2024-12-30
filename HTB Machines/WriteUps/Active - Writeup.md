@@ -40,7 +40,7 @@
 15 - Enumerate till you get the user flag located in the desktop of the user SVC_TGS and download it with the previously named user with the flag --download
 
 16 - Log into the service with rpcclient. Usage: rpcclient -U "__{USER}__%__{PASSWORD}__" __{VICTIM's-IP}__<br><br>
-	16.1 - Sometimes you can skip all the previous steps and try to connect with rpcclient with a null session. Way to do it: rpcclient -U "" __{VICTIM's-IP}__ -N<br>
+	&emsp;16.1 - Sometimes you can skip all the previous steps and try to connect with rpcclient with a null session. Way to do it: rpcclient -U "" __{VICTIM's-IP}__ -N<br>
 	16.2 - If with the null session attack previously named you get a list of all the users in the server you can try to do an ASREPRoast
 
 17 - Useful rpcclient commands: 
