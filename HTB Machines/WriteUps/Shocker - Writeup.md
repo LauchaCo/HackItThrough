@@ -18,6 +18,6 @@
 9. Now we're only a few steps away from going root, the only thing we've to do is run the following command in the machine's shell: 
 	`sudo /usr/bin/perl -e 'exec("/bin/sh -i")'`
 
->sudo /usr/bin/perl : in order to run perl as su
->-e : to run the program in only one line
+>sudo /usr/bin/perl : in order to run perl as su<br>
+>-e : to run the program in only one line<br>
 >'exec("/bin/sh -i")' : piece of code to execute the bash in interactive mode
