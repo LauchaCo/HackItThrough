@@ -50,9 +50,9 @@
 - _queryuser_ __{RID-OF-A-USER}__ - Gives you all the information on the server about a certain user
 - _querydispinfo_ - Enumerates all the descriptions of the users in the domain controller
 
-18 - After trying to do an ASREPRoast attack, as we can't seem to get any creedentials we can try using GetUserSPN.py instead of GETNpusers.py. Usage: GetUserSPN.py __{DOMAIN ex. active.htb}__/__{USER}__:__{PASSWORD}__
-	18.1 - This attack will give us a TGS (Ticket Granting Service) of the admin through the usage of credentials previously retrieved from other attacks
-	18.2 - After seeing that the tools gives us a response with a TGS of the admin we can add the flag -request to get the credentials for the admin account. Usage: GetUserSPN.py __{DOMAIN ex. active.htb}__/__{USER}__:__{PASSWORD}__ -request
+18 - After trying to do an ASREPRoast attack, as we can't seem to get any creedentials we can try using GetUserSPN.py instead of GETNpusers.py. Usage: GetUserSPN.py __{DOMAIN ex. active.htb}__/__{USER}__:__{PASSWORD}__<br><br>
+	&emsp;18.1 - This attack will give us a TGS (Ticket Granting Service) of the admin through the usage of credentials previously retrieved from other attacks<br>
+	&emsp;18.2 - After seeing that the tools gives us a response with a TGS of the admin we can add the flag -request to get the credentials for the admin account. Usage: GetUserSPN.py __{DOMAIN ex. active.htb}__/__{USER}__:__{PASSWORD}__ -request
 
 19 - When you finally have the hash of the admin's password you can dump it into a file called hash and try to crack it. Way: john -w:{Wordlist} {Hash} 
 
