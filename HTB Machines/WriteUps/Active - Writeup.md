@@ -41,7 +41,7 @@
 
 16 - Log into the service with rpcclient. Usage: rpcclient -U "__{USER}__%__{PASSWORD}__" __{VICTIM's-IP}__<br><br>
 	&emsp;16.1 - Sometimes you can skip all the previous steps and try to connect with rpcclient with a null session. Way to do it: rpcclient -U "" __{VICTIM's-IP}__ -N<br>
-	16.2 - If with the null session attack previously named you get a list of all the users in the server you can try to do an ASREPRoast
+	&emsp;16.2 - If with the null session attack previously named you get a list of all the users in the server you can try to do an ASREPRoast
 
 17 - Useful rpcclient commands: 
 - _enumdomusers_ - Enumerate domain users of the domain controller
