@@ -4,10 +4,10 @@
 
 3 - Add the domain paired with the machin ip to the hosts file in /etc/hosts
 
-4 - Try to enumerate objects in the domain using a smb client and a null session because of the lack of credentials to enter the server. Usage: smbclient -L __{VICTIM's-IP}__-N 
+4 - Try to enumerate objects in the domain using a smb client and a null session because of the lack of credentials to enter the server. Usage: smbclient -L __{VICTIM's-IP}__ -N 
 - -L : Allows you to look at what services are available on the server 
-- -N : Suppresses the normal password prompt from the client to the user. Used in a null session<br>
-	4.1 - Because the port 88 is open and kerberos is running you can try to enumerate all the users of the server with the usage of kerbrute. Usage: kerbrute userenum --dc __{VICTIM's-IP}__ -d __{DOMAIN ex. active.htb}__ __{WORDLIST}__<br>
+- -N : Suppresses the normal password prompt from the client to the user. Used in a null session<br><br>
+	4.1 - Because the port 88 is open and kerberos is running you can try to enumerate all the users of the server with the usage of kerbrute. Usage: kerbrute userenum --dc __{VICTIM's-IP}__ -d __{DOMAIN ex. active.htb}__ __{WORDLIST}__<br><br>
 	4.2 - For kerberosting and ASREPRoast attack you've to be with the hour in the system equal to the server's one. Tool: ntpdate __{VICTIM's-IP}__
 
 5 - After listing all the sharenames you can also list the privileges for each one of those shares. Usage: smbmap -H __{VICTIM's-IP}__
