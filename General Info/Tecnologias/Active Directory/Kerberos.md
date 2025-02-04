@@ -1,4 +1,4 @@
-## Que es?
+## Definition
 __Kerberos__ is a computer-network authentication protocol that works on the basis of tickets to allow nodes communicating to prove their identity to one another in a secure manner. It's aimed primarily at a client-server model, and it provides mutual authentication - both the user and the server verify each other's identity. Kerberos protocol messages are protected against eavesdropping and replay attacks.
 
 Kerberos builds on symmetric-key and requires a trusted third-party, and optionally may use public-key cryptography durain certain phases of authentication.
