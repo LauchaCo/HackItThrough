@@ -1,0 +1,2 @@
+## ${IFS}
+It's a Linux's environment variable that stands for "Internal Field Separator." It is used by the shell to separate words in a command. This can be used to bypass OS Command Injection mitigations that strip spaces from user-supplied parameters.

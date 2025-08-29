@@ -1,0 +1,1 @@
+It's a useful page that can be used to help you exploit blind vulnerabilities like Blind SQL, OS Command execution, etc.
