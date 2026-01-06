@@ -5,4 +5,7 @@ Command to test if some credentials are useful when it comes to the service spec
 	crackmapexec smb __{VICTIM's-IP}__ -u __{USER}__ -p __{PASS}__
 Command to enumerate all the shares the user we've pwned have access to:
 	crackmapexec smb __{VICTIM's-IP}__ -u __{USER}__ -p __{PASS}__ --shares
-	
+Command to enumerate all the users:
+	crackmapexec smb __{DOMAIN}__ -u __{USER}__ -p __{PASS}__ --users
+Command to password spray
+	crackmapexec smb __{DOMAIN}__ -u __{USERS_FILE}__ -p __{PASS}__
