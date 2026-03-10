@@ -16,3 +16,5 @@
 - [Shocker](</HTB Machines/WriteUps/Shocker - Writeup.md>).
 - [UpDown](</HTB Machines/WriteUps/UpDown - Writeup.md>).
 - [Valentine](</HTB Machines/WriteUps/Valentine - Writeup.md>).
+
+![[Resources/Inicio]]

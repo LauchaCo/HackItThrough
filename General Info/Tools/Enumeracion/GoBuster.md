@@ -5,3 +5,4 @@ The way to use GoBuster for directory listing is: `gobuster dir --wordlist {word
 ## Useful flags
 `--exclude-length {value}` : Exclude responses with the length equal to value
 `-k` : Disables certificate checks
+
