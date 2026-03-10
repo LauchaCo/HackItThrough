@@ -3,7 +3,7 @@ This tool in used to launch the ASREPRoast attack. This script will attempt to l
 
 ## Usage
 Command to use a list of users or given credentials, perform an LDAP query to obtain users to attack on: `GETNPUsers.py __{DOMAIN}/__ -usersfile __{WORDLIST}__ -format hashcat -outputfile __{HASH-NAME}__`\
-Request TGTs for users in a file: `GetNPUsers.py -no-pass -usersfile __{USERS-WORDLIST}__ __{DOMAIN}__/`\
+Request TGTs for users in a file: `GetNPUsers.py -no-pass -usersfile __{USERS-WORDLIST}__ __{DOMAIN}__/`
 ## Useful flags
 Flags:
 - -k : Use kerberos authentication
