@@ -3,7 +3,7 @@ __Hydra__ is a tool used by hackers to try to crack different logins, such as: f
 
 ## Commands
 The __hydra__ tool can be used in different ways depending in the type of attack you want to perform:
-http-post-form:
+http-post-form:\
 `hydra -L {WORDLIST} -P {WORDLIST} {IP or URL} http-post-form "/{ENDPOINT}:{POST-BODY}:{INCORRECT-LOGIN-MESSAGE}"`
 
 ## Parameters
